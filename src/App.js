@@ -149,11 +149,11 @@ class App extends Component {
           </header>
         </div>
         <div>
-          <QuizPage quiz={quiz} quiz1={quiz.Quiz} />
-          {/* {!isLogin && <Login onLogin={this.login} />}
+          {/* <QuizPage quiz={quiz} quiz1={quiz.Quiz} /> */}
+          {!isLogin && <Login onLogin={this.login} />}
           {isLogin && !course && <CourseList list={quizzes} onPress={this.enterCourse} />}
           {isLogin && course && !test && <QuizInfo quiz={quiz} quiz1={quiz.Quiz} onPress={this.enterQuiz} onBack={this.showList} />}
-          {isLogin && test && course && !prockey && <KeyPage / >} */}
+          {isLogin && test && course && !prockey && <KeyPage / >}
         </div>
       </div>
 
